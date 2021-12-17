@@ -1,6 +1,5 @@
 //@version=4
 study(title="自用均线", shorttitle="均线", overlay=true, resolution="")
-
 plot(sma(close, 5), color=color.red, title="MA5", offset=0)
 plot(sma(close, 10), color=color.orange, title="MA10", offset=0)
 plot(sma(close, 28), color=color.yellow, title="MA28", offset=0)
