@@ -1,0 +1,10 @@
+//@version=4
+study(title="自用均线", shorttitle="均线", overlay=true, resolution="")
+
+plot(sma(close, 5), color=color.red, title="MA5", offset=0)
+plot(sma(close, 10), color=color.orange, title="MA10", offset=0)
+plot(sma(close, 28), color=color.yellow, title="MA28", offset=0)
+plot(sma(close, 60), color=color.green, title="MA60", offset=0)
+plot(sma(close, 99), color=color.purple, title="MA99", offset=0)
+plot(sma(close, 120), color=color.blue, title="MA120", offset=0)
+plot(sma(close, 181), color=color.purple, title="MA181", offset=0)
